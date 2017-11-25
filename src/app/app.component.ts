@@ -2,8 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'jad-root',
-  templateUrl: './app.component.html',  
+  templateUrl: './app.component.html',
 })
 export class AppComponent {
-  title = 'jad';
+  luke = { name: 'Luke', isJedi: true, temple: 'Coruscant'}
+  leia = { name: 'Leia', isJedi: false}
+  han = { name: 'Luke', isJedi: false}
 }
